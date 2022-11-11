@@ -23,7 +23,6 @@ const config = {
     headless: false,  
   },
 
-
   projects: [
     {
       name: 'chromium',
