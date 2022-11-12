@@ -3,6 +3,7 @@ class YandexSubsystemsPage {
     constructor(page) {
         this.page = page;
         this.endpoint = '/all';
+        // Elements
         this.YANDEX_MARKET_TITLE = this.page.locator("#services-big-item-market-title")
       }
 
@@ -12,6 +13,7 @@ class YandexSubsystemsPage {
 
     async goToYandexMarket () {
         await this.YANDEX_MARKET_TITLE.click();
+        await this.page.waitForNavigation();
     }
 
 }

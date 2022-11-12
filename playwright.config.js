@@ -20,14 +20,14 @@ const config = {
     baseURL: 'https://yandex.ru',
     viewport: { width: 1920, height: 1080 },
     actionTimeout: 0,
-    headless: true,  
+    headless: false,  
   },
 
   projects: [
     {
-      name: 'chromium',
+      name: 'chrome',
       use: {
-        channel: 'chromium',
+        channel: 'chrome',
       },
     },
   ],
