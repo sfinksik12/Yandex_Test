@@ -2,6 +2,7 @@ import { test, expect } from '@playwright/test';
 import { AppUI } from '../framework/base/base_ui_app';
 import search_words from '../framework/data/search_words';
 
+
 // Arrange
 let app_ui;
 
